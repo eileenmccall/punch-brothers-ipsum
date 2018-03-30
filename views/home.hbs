@@ -3,12 +3,20 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 offset-sm-2">
-			<form action="/" method="POST">
-				<input type="number" name="paragraphs" placeholder="Number of Paragraphs" required="required">
-				<button type="submit" class="btn btn-primary">Ahoy!</button>
+
+			<div class="header">
+				<h2 class="header__text">Rye whiskey makes the text read better</h2>
+			</div>
+			<p>The finest placeholder text generator this side of the Mississippi. Enter the number of paragraphs you'd like and enjoy your lorem ipsum</p>
+
+			<form action="/" method="POST" class="form">
+				<input class="form__input" type="number" name="paragraphs" placeholder="Number of Paragraphs" required="required">
+				<button type="submit" class="btn btn-primary"><span class="buttontext">Oh boy!</span></button>
 			</form>
+
+			<h3>Example:</h3>
 			{{#each lorem}}
-				<p>{{this}}</p>
+				<p class="bodytext">{{this}}</p>
 			{{/each}}
 		</div>
 	</div>

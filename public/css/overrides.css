@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Playfair+Display:700,700i,900,900i');
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+	background-color: #12486A;
+}
+
+.btn-primary:hover {
+	background-color: #0d354e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #12486A;
+	font-family: 'Playfair Display', serif;
+}
+
+a {
+	color: #12486A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0d354e;
+}

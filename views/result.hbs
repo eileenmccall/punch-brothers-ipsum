@@ -1,9 +1,19 @@
 {{> header}}
 
-	<a href="/">Try again</a>
-	
-	{{#each lorem}}
-		<p>{{this}}</p>
-	{{/each}}
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 offset-sm-2">
+
+			<div class="header">
+				<i class="fas fa-long-arrow-alt-left header__icon"></i>
+				<h2 class="header__text"><a href="/">Try again</a></h2>
+			</div>
+			
+			{{#each lorem}}
+				<p>{{this}}</p>
+			{{/each}}
+		</div>
+	</div>
+</div>
 	
 {{> footer}}
