@@ -32,6 +32,10 @@ function getRandomParagraph () {
 }
 
 function getLorem (num) {
+	if (num > 100) {
+		num = 100;
+	}
+	
 	let lorem = [];
 
 	while (lorem.length < num) {
