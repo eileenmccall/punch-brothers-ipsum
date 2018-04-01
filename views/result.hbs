@@ -2,15 +2,14 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-8 offset-sm-2">
-
-			<div class="header">
-				<i class="fas fa-long-arrow-alt-left header__icon"></i>
-				<h2 class="header__text"><a href="/">Try again</a></h2>
+		<div class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1 col-12 result">
+			<div class="result__header">
+				<i class="fas fa-long-arrow-alt-left result__header__icon"></i>
+				<h2 class="result__header__text"><a href="/">Try again</a></h2>
 			</div>
 			
 			{{#each lorem}}
-				<p>{{this}}</p>
+				<p class="result__lorem">{{this}}</p>
 			{{/each}}
 		</div>
 	</div>

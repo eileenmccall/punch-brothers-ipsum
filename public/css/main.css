@@ -1,59 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Playfair+Display:700,700i,900,900i');
 
-.jumbotron {
-	background-image: url('../images/punch-brothers.jpg');
-	background-size: 100% auto;
-	height: 50vh;
-	position: relative;
-}
-
-.jumbotron__header {
-	color: white;
-	font-family: 'Playfair Display', serif;
-	font-size: 4em;
-	font-weight: 900;
-	position: absolute;
-	text-align: center;
-	top: 40%;
-	width: 100%;
-}
-
-@media (max-width: 320px) {
-	.jumbotron {
-		height: 30vh;
-	}
-}
-
-.header {
-	text-align: left;
-}
-
-.header__text {
-	display: inline-block;
-}
-
-.bodytext {
-	font-family: 'Open Sans', sans-serif;
-}
-
-.buttontext {
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-}
-
-.form {
-	margin: 25px 0;
-	text-align: center;
-}
-
-.form__input {
-	width: 300px;
+html {
+	font-size: 16px;
 }
 
 .footer {
 	background-color: #12486A;
 	padding: 10px 0;
 	text-align: center;
+}
+
+.footer__link {
+	color: white;
 }
 
 .footer__text {
@@ -63,6 +21,59 @@
 	margin: 0;
 }
 
-.footer__link {
+.intro__form {
+	margin: 25px 0;
+	text-align: center;
+}
+
+.intro__form__input {
+	max-width: 200px;
+	width: 80%;
+}
+
+.jumbo {
+	margin: 0 0 35px 0;
+	max-height: 45vh;
+	overflow-y: hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.jumbo__image {
+	display: inline-block;
+	width: 100%;
+}
+
+.jumbo__header {
 	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
+	font-weight: 900;
+	left: 50%;
+	line-height: 1.25em;
+	padding: 0 15px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	/* God bless whoever came up with this vv*/
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.lorem {
+	margin-bottom: 35px;
+}
+
+.result {
+	margin-bottom: 35px;
+}
+
+.result__header__icon {
+	bottom: 3px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.result__header__text {
+	display: inline-block;
 }

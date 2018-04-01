@@ -2,22 +2,25 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-12">
+		<div class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1 col-12">
+			<div class="intro">
+				<div class="intro__header">
+					<h2 class="intro__header__text">Rye whiskey makes the text read better</h2>
+				</div>
+				<p>Enter the number of paragraphs you'd like and enjoy your lorem ipsum</p>
 
-			<div class="header">
-				<h2 class="header__text">Rye whiskey makes the text read better</h2>
+				<form action="/" method="POST" class="intro__form">
+					<input class="intro__form__input" type="number" name="paragraphs" placeholder="Number of Paragraphs" required="required">
+					<button type="submit" class="btn btn-primary"><span class="buttontext">Oh boy!</span></button>
+				</form>
 			</div>
-			<p>The finest placeholder text generator this side of the Mississippi. Enter the number of paragraphs you'd like and enjoy your lorem ipsum</p>
 
-			<form action="/" method="POST" class="form">
-				<input class="form__input" type="number" name="paragraphs" placeholder="Number of Paragraphs" required="required">
-				<button type="submit" class="btn btn-primary"><span class="buttontext">Oh boy!</span></button>
-			</form>
-
-			<h3>Example:</h3>
-			{{#each lorem}}
-				<p class="bodytext">{{this}}</p>
-			{{/each}}
+			<div class="lorem">
+				<h3 class="lorem__header">Example:</h3>
+				{{#each lorem}}
+					<p class="lorem__text">{{this}}</p>
+				{{/each}}
+			</div>
 		</div>
 	</div>
 </div>

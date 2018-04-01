@@ -191,7 +191,7 @@ module.exports = [
 	"Oh I can’t toss it to first",
 	"Oh we know that we were the band going out to play one more song",
 	"Now you’re the giant out on second 'cause you thought he was gone…",
-	"	About a year from now",
+	"About a year from now",
 	"I wake up in",
 	"The arms of who i want",
 	"Without the need to hide our nakedness",
